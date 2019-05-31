@@ -9,6 +9,7 @@ const Size = createGlobalStyle`
     --size-small: 1.5em;
     --size-medium: 1.8em;
     --size-big: 2.4em;
+    --size-big-two: 3.5em;
     --size-very-big: 5em;
   }
 

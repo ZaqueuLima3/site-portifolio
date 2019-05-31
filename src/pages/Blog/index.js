@@ -11,17 +11,11 @@ const Home = () => (
     <Container>
       <Nav />
       <Banner>
-        <Moon />
         <TextWrapper>
-          <h1>Full-Stack Developer</h1>
-          <h3>Zaqueu Lima</h3>
-          <p>dream builder</p>
+          <h1>blog em desenvolvimento</h1>
         </TextWrapper>
       </Banner>
     </Container>
-    <Section>
-      <div />
-    </Section>
   </>
 );
 
