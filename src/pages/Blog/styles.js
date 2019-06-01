@@ -11,6 +11,7 @@ export const Container = styled.section`
 export const Banner = styled.div`
   height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 0 80px;
   overflow: hidden;
@@ -26,12 +27,17 @@ export const Banner = styled.div`
 
 export const TextWrapper = styled.div`
   width: 100%;
-  color: var(--color-primary);
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: var(--color-primary);
 
   h1 {
     font-size: var(--size-very-big);
-    font-weight: 200;
+    font-weight: 400;
+    opacity: 0.8;
   }
 
   h3 {
