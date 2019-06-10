@@ -53,12 +53,3 @@ export const TextWrapper = styled.div`
     }
   }
 `;
-
-export const Section = styled.section`
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: var(--color-primary);
-`;
