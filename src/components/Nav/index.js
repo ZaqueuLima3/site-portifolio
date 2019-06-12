@@ -1,21 +1,24 @@
 import React from "react";
 
-import { Navigation, Container, Ul } from "./styles";
+import { Container, LogoContent, Ul } from "./styles";
 
 import Logo from "../../objects/Logo";
 
+const NavList = ["Home", "Blog", "Portifolio", "Contato"];
+
 const Nav = () => (
-  <Navigation>
     <Container>
-      <Logo />
-      <Ul>
-        <li>Home</li>
-        <li>Blog</li>
-        <li>Portifolio</li>
-        <li>Contato</li>
-      </Ul>
+      <LogoContent>
+        <Logo />
+      </LogoContent>
+      <div>
+        <Ul>
+          {NavList.map((item, index) => (
+            <li key={index}>{item}</li>
+            ))}
+        </Ul>
+      </div>
     </Container>
-  </Navigation>
 );
 
 export default Nav;

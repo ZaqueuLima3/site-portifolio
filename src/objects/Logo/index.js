@@ -5,7 +5,7 @@ import { Container } from "./styles";
 const Logo = () => (
   <Container>
     <p>
-      Zaqueu<span>Lima</span>
+      Zaqueu<span>Lima</span>.
     </p>
   </Container>
 );
